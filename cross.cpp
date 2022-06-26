@@ -52,3 +52,17 @@ int main(){
 
     return 0;
 }
+
+//2次元のもの（行列など）を入力する時は下のように2次元配列を定義できる
+// int sumH[H];             <- 変数でサイズを定義
+// int sumW[W];
+// int A[H][W];
+// rep(h,H) sumH[h] = 0;    <- 初期化．これはベクトルの初期化で0がh個格納されることと同義
+// rep(w,W) sumW[w] = 0;
+// rep(h,H)rep(w,W) {
+//     int a;               <- この方はまとめて入れてる
+//     cin >> a;
+//     A[h][w] = a;
+//     sumH[h] += a;
+//     sumW[w] += a;
+// }
